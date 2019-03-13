@@ -4,7 +4,7 @@ var connMysql = function() {
   return mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "9090123",
+    password: "",
     database: "portal_noticias"
   });
 };
